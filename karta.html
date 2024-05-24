@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temuriylar Sulolasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="title">Temuriylar Sulolasi</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html" class="active">ASOSIY</a></li>
+                    <li><a href="about.html">AMIR TEMUR HAQIDA</a></li>
+                    <li><a href="temuriylarshajarasi.html">TEMURIYLAR SHAJARASI</a></li>
+                    <li><a href="memorchilik.html">TEMURIYLAR DAVRI ME`MORCHILIGI</a></li>
+                    <li><a href="karta.html">XARITALAR</a></li>
+                    <li><a href="muzey.html">TEMURIYLAR TARIXI MUZEYI</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+         
+    <main>
+    
+        <div class="gallery">
+            <div class="gallery-item" onclick="expandImage(this)">
+                <img src="./xarta3.jpg" alt="1-rasm">
+                <div class="overlay">AMIR TEMUR JAHONDAGI ENG YIRIK DAVLATLARDAN BIRINI ASOSCHISI</div>
+            </div>
+            <div class="gallery-item" onclick="expandImage(this)">
+                <img src="./xaritasi.png" alt="2-rasm">
+                <div class="overlay">AMIR TEMUR yuzlab janglarda ishtirok etgan g`alaba qozonib o`nlab mamlakatlarni zabt etgan</div>
+            </div>
+            <div class="gallery-item" onclick="expandImage(this)">
+                <img src="xaritabig.jpg" alt="3-rasm">
+                <div class="overlay">AMIR TEMUR Movarounnahrni mo`g`ullardan ozod qilib 150 yillik zulmga chek qo`ygan</div>
+            </div>
+            <!-- Добавьте больше элементов галереи по мере необходимости -->
+        </div>
+    
+        <div id="expanded-view" class="expanded-view" onclick="closeExpandedView()">
+            <img id="expanded-img" src="" alt="Развернутое изображение">
+            <div id="expanded-text" class="expanded-text"></div>
+        </div>
+            
+        
+       
+    
+
+
+    </main>
+    
+    
+
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; Temuriylar Sulolasi. </p>
+        </div>
+    </footer>
+</body>
+</html>

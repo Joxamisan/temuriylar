@@ -1,0 +1,864 @@
+/* Общие стили */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f1e6; /* Пастельный оттенок фона */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Шапка */
+header {
+    background-color: #6d4226; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста */
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4e2b1c; /* Подчеркивание */
+}
+
+header .title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Меню */
+nav ul.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+nav ul.menu li a:hover {
+    background-color: #4e2b1c; /* Темнее всплеск меню при наведении */
+}
+
+nav ul.menu li a.active {
+    background-color: #4e2b1c; /* Активный фон */
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень контейнера */
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6d4226; /* Цвет заголовков */
+}
+
+main p {
+    line-height: 1.6;
+    color: #333; /* Цвет текста */
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6d4226; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    margin-top: 20px;
+}
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f1e6; /* Пастельный оттенок фона */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Шапка */
+header {
+    background-color: #6d4226; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста */
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4e2b1c; /* Подчеркивание */
+}
+
+header .title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Меню */
+nav ul.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+nav ul.menu li a:hover {
+    background-color: #4e2b1c; /* Темнее всплеск меню при наведении */
+}
+
+nav ul.menu li a.active {
+    background-color: #4e2b1c; /* Активный фон */
+}
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f1e6; /* Пастельный оттенок фона */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Шапка */
+header {
+    background-color: #6d4226; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста */
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4e2b1c; /* Подчеркивание */
+}
+
+header .title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Меню */
+nav ul.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+nav ul.menu li a:hover {
+    background-color: #4e2b1c; /* Темнее всплеск меню при наведении */
+}
+
+nav ul.menu li a.active {
+    background-color: #4e2b1c; /* Активный фон */
+}
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Image shadow */
+}
+
+/* Image captions */
+.image-caption {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Text block shadow */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: left;
+}
+
+.image-caption h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #6d4226; /* Heading color */
+}
+
+.image-caption p {
+    font-size: 14px;
+    color: #333; /* Text color */
+    line-height: 1.6;
+}
+
+.gallery-item:hover .image-caption {
+    opacity: 1; /* Show text block on hover */
+}
+/* Галерея */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень изображения */
+}
+
+/* Текст под изображениями */
+.image-caption {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень блока с текстом */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: left;
+}
+
+.image-caption h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #6d4226; /* Цвет заголовка */
+}
+
+.image-caption p {
+    font-size: 14px;
+    color: #333; /* Цвет текста */
+    line-height: 1.6;
+}
+
+.gallery-item:hover .image-caption {
+    opacity: 1; /* Показывать блок с текстом при наведении */
+}
+.temuriylar-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.temuriylar-gallery-item {
+    position: relative;
+    margin: 10px;
+}
+
+.temuriylar-gallery-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.temuriylar-text-section {
+    display: none;
+    text-align: center;
+    margin: 50px;
+}
+
+.temuriylar-text-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.temuriylar-text-section p {
+    font-size: 1.2em;
+}
+
+/* Adaptivity */
+@media (max-width: 600px) {
+    .temuriylar-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .temuriylar-gallery-image {
+        width: 90%;
+        height: auto;
+    }
+}
+
+.temuriylar-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.temuriylar-gallery-item {
+    position: relative;
+    margin: 10px;
+}
+
+.temuriylar-gallery-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.temuriylar-gallery-image:hover {
+    transform: scale(1.05);
+}
+
+.temuriylar-text-section {
+    display: none;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.temuriylar-text-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.temuriylar-text-section p {
+    font-size: 1.2em;
+}
+
+.new-image-container {
+    margin-bottom: 20px;
+}
+
+.new-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: opacity 1s ease-in-out;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #333;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Adaptivity */
+@media (max-width: 600px) {
+    .temuriylar-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .temuriylar-gallery-image {
+        width: 90%;
+        height: auto;
+    }
+}
+.genealogy-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4efe8; /* Исторический фоновый цвет */
+    font-family: 'Garamond', serif; /* Стилизация под средневековый стиль */
+}
+
+.tree-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.person {
+    border: 2px solid #8b5e3c;
+    padding: 15px;
+    background-color: #fffbe8;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+.person img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #8b5e3c;
+    margin-bottom: 10px;
+}
+
+.person-info {
+    text-align: center;
+}
+
+.children {
+    display: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.person.open .children {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.person:hover {
+    background-color: #f4efe8;
+}
+
+/* Адаптивность для маленьких экранов */
+@media (max-width: 768px) {
+    .tree-container {
+        flex-direction: column;
+    }
+
+    .person {
+        width: 100%;
+    }
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.image-item {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .image-item {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .image-item {
+        flex: 1 1 100%;
+    }
+}
+.container {
+    text-align: center;
+    margin-top: 20px; /* Joylashuvni saytingiz dizayniga mos ravishda o'zgartiring */
+}
+
+.hidden-text {
+    display: none;
+    margin-top: 20px;
+}
+
+.back-button {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+.container {
+    text-align: center;
+    margin-top: 20px; /* Joylashuvni saytingiz dizayniga mos ravishda o'zgartiring */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hidden-text {
+    display: none;
+    margin-top: 20px;
+}
+
+.back-button {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s ease, visibility 0.5s, opacity 0.5s;
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    width: calc(33.333% - 10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.3s ease, visibility 0.3s, opacity 0.3s;
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.gallery-item:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+
+.expanded-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+    flex-direction: column;
+}
+
+.expanded-view img {
+    max-width: 90%;
+    max-height: 80%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.expanded-view .expanded-text {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 90%;
+}
+
+.expanded-view.visible {
+    visibility: visible;
+    opacity: 1;
+}
+tree {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.tree ul {
+    padding-left: 0;
+    position: relative;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.tree ul ul {
+    padding-left: 0;
+}
+
+.tree li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+    transition: all 0.5s;
+}
+
+.tree li::before, .tree li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 2px solid #ccc;
+    width: 50%;
+    height: 20px;
+}
+
+.tree li::after {
+    right: auto;
+    left: 50%;
+    border-left: 2px solid #ccc;
+}
+
+.tree li:only-child::after, .tree li:only-child::before {
+    display: none;
+}
+
+.tree li:only-child {
+    padding-top: 0;
+}
+
+.tree li:first-child::before, .tree li:last-child::after {
+    border: 0 none;
+}
+
+.tree li:last-child::before {
+    border-right: 2px solid #ccc;
+    border-radius: 0 5px 0 0;
+}
+
+.tree li:first-child::after {
+    border-radius: 5px 0 0 0;
+}
+
+.tree ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 2px solid #ccc;
+    width: 0;
+    height: 20px;
+}
+
+.tree li a {
+    border: 2px solid #ccc;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #666;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.tree li a:hover, .tree li a:hover + ul li a {
+    background: #c8e4f8;
+    color: #000;
+    border: 2px solid #94a0b4;
+}
+
+.tree li a:hover + ul li::after,
+.tree li a:hover + ul li::before,
+.tree li a:hover + ul::before,
+.tree li a:hover + ul ul::before {
+    border-color: #94a0b4;
+}
